@@ -140,16 +140,16 @@ export const myComponents = [
         img: "rolex-bracelet-ring.jpg",
       },
       {
-        img: "vvsEarings2.jpg",
+        img: "vvsEaring2.jpg",
       },
       {
-        img: "vvsEarrings.jpg",
+        img: "vvsEarring.jpg",
       },
       {
-        img: "vvsEarrings3.jpg",
+        img: "vvsEarring3.jpg",
       },
       {
-        img: "vvsEarrings4.jpg",
+        img: "vvsEarring4.jpg",
       },
     ],
   },

@@ -32,7 +32,11 @@ const Aside = () => {
       <div className="mediaComp">
         {myComponents &&
           myComponents.map((comp) => (
-            <a onClick={() => handleLinks(comp.id)} key={comp.id}>
+            <a
+              onClick={() => handleLinks(comp.id)}
+              key={comp.id}
+              className={comp.id == linkId ? "active" : ""}
+            >
               {comp.name}
             </a>
           ))}
