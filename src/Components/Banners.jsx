@@ -25,10 +25,6 @@ const Banners = () => {
         <i className="bi bi-telephone-outbound-fill"></i>
         <i className="bi bi-telephone-fill"></i>
       </div>
-
-      <a href="https://wa.me/message/GR6HXD6GV350B1" className="whatsAppBanner">
-        <i className="bi bi-whatsapp"></i>
-      </a>
     </div>
   );
 };

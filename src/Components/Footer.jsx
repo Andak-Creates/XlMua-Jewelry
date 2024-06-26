@@ -25,7 +25,7 @@ const Footer = () => {
         </form>
       </div>
       <div className="copyRight">
-        all rights reserved, VindiCodes<sup>©️</sup>{" "}
+        Designed by VindiCodes<sup>©️</sup>{" "}
       </div>
     </div>
   );

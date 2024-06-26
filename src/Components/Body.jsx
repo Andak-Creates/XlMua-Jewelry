@@ -87,10 +87,18 @@ const Body = () => {
             </p>
 
             <div className="modalLinks">
-              <a href="">Facebook</a>
-              <a href="">Instagram</a>
-              <a href="">+234-811-954-0296</a>
-              <a href="">xlmua&jewelries@gmail.com</a>
+              <a href="">
+                <i className="bi bi-facebook"></i>
+              </a>
+              <a href="">
+                <i className="bi bi-instagram"></i>
+              </a>
+              <a href="">
+                <i className="bi bi-telephone-fill"></i>
+              </a>
+              <a href="">
+                <i className="bi bi-envelope-fill"></i>
+              </a>
             </div>
           </div>
         </div>

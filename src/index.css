@@ -166,10 +166,6 @@ body {
   }
 }
 
-.whatsAppBanner {
-  color: green;
-}
-
 /* End of Navigation */
 
 /* Modal section */
@@ -229,9 +225,14 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 20px auto;
-  gap: 10px;
+  margin: 30px auto;
+  gap: 30px;
   padding: 10px;
+  font-size: 30px;
+
+  /* & a {
+    color: black;
+  } */
 }
 
 .comp {
@@ -446,6 +447,7 @@ body {
 .shapedividers_com-8344 {
   overflow: hidden;
   position: relative;
+  z-index: -1;
 }
 .shapedividers_com-8344::before {
   content: "";
@@ -564,7 +566,13 @@ sup {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
+  .best {
+    width: 180px;
+  }
+}
+
+@media (max-width: 950px) {
   .Nav {
     justify-content: space-around;
     flex-direction: row;
@@ -597,15 +605,13 @@ sup {
 
   .bestSeller {
     margin: 10px auto;
-
     gap: 20px;
     padding-bottom: 20px;
     justify-content: space-evenly;
-    gap: 10px;
   }
 
   .best {
-    width: 150px;
+    width: 200px;
     margin: 0;
   }
 
@@ -717,5 +723,16 @@ sup {
     background-color: white;
     color: var(--brown);
     font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    & h2 {
+      font-size: 20px;
+    }
+  }
+  .best {
+    width: 350px;
   }
 }
